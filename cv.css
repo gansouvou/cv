@@ -1,0 +1,117 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;flex-direction: column;
+    justify-content: center; align-items: center;
+}
+
+.contenu{
+    box-shadow: 30px 0 40px rgb(196, 196, 196), -30px 0 40px rgb(196, 196, 196);
+    width: 750px;
+    border: outset;
+}
+
+header, main{
+    display: flex; 
+    justify-content:space-around; align-items: center;
+}
+
+header{
+    padding-top: 20px;
+    background-color:  #333;
+    color: white;
+    
+}
+
+.photo img{
+    width: 130px; height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.des{
+    letter-spacing: 2px;
+    margin-left: -25px;
+    font-weight: bold;
+}
+
+h3{
+    color: #13c3ba;
+    font-size: 20px;
+}
+
+.des p{
+    color: orange;
+    text-transform:capitalize;
+}
+
+.adress p{
+    display: flex;
+}
+.adress p:hover{ 
+    font-weight: 800;
+}
+
+.adress a{ text-decoration: none; color:inherit}
+
+.adress img{
+    width: 20px; height: 20px; margin-right: 3px; border-radius: 50%;
+}
+
+.right{
+    width: 55%;
+}
+
+h4{
+    margin-left: 10px;
+    color: #13c3ba;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+hr{
+    border-top: 2px solid #13c3ba;
+    width: 90%;
+}
+
+.projet, .df, .loisirs, .skils, .lang, .reseau{
+    margin-left: 10%;
+}
+
+ span, strong{
+    color:darkslategray;
+}
+
+.df i{
+    color:#13c3baf5;
+}
+
+.c1{
+    border: 1px solid #ccc;
+    height: 7px;
+}
+
+.c2{
+    height: 100%;
+    background-color: orange;
+}
+
+.reseau a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 5px;
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.reseau img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.reseau img:hover{
+    transform: translateX(-5px);
+}
